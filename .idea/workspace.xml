@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22a4ae70-a2d2-433b-a1f7-b7539eecf460" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyltp/LTP_CWS.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/semi_auto_construct_words/models/word2vec.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_py/test_json.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LTP_CWS.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extract_traffic_event/extract_traffic_event.py" afterPath="$PROJECT_DIR$/extract_traffic_event/extract_traffic_event.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extract_traffic_event/traffic_event.json" afterPath="$PROJECT_DIR$/extract_traffic_event/traffic_event.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/semi_auto_construct_words/test_WordSimilarity.py" afterPath="$PROJECT_DIR$/semi_auto_construct_words/test_WordSimilarity.py" />
-    </list>
+    <list default="true" id="22a4ae70-a2d2-433b-a1f7-b7539eecf460" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -578,7 +569,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16263238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
