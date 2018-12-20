@@ -8,4 +8,3 @@ ws_tool = WordSimilarity2010()
 a = "抄袭"
 b = "克隆"
 
-# sim_b =

@@ -67,7 +67,6 @@ def f_event_to_list(path):
     print(f_event_list)
     return f_event_list
 
-
 # 1.4 匹配子节点
 def s_event_to_list(path):
     # 定义列表s_event_list存放子事件
@@ -107,6 +106,14 @@ def fs_event_to_list(_list):
             fs_event_list[tmp] = sub_list
     print(fs_event_list)
     return fs_event_list
+
+# 1.6 直接提取出主干事件,读取json文件
+def extract_main_event(json_path):
+    with open(json_path, 'r') as f:
+        # 加载json
+        load_dict = json.load(f)
+    return load_dict
+
 
 
 # 2. 将语料，每条问答语句，存储进list列表中
@@ -347,17 +354,31 @@ if __name__ == '__main__':
     excel_path = "traffic_event_corpus.xlsx"
     json_path = "traffic_event.json"
     # total_corpus = read_file(corpus_path)
+    """
+    stage1:
+    将事件提取出来，并且保存到json文件中
+    """
+    # corpus_list = corpus_to_list(corpus_path)
+    # no_del_event = event_to_list_nodel(event_path)
+    # event_corpus_dict = fs_event_to_list(no_del_event)
+    # to_json2(event_corpus_dict, json_path)
 
-    corpus_list = corpus_to_list(corpus_path)
+    """
+    stage2:
+    读取json文件，并且提出相应的主干事件，读取dict的key值
+    """
+    json_path = "H:\python-workspace\qindun\extract_traffic_event\\traffic_event_final.json"
+    json_dict = extract_main_event(json_path)
+    for i in json_dict:
+        print(i)
     # event_list = event_to_list(event_path)
     # f_event = f_event_to_list(event_path)
     # s_event = s_event_to_list(event_path)
     # fs_event = fs_event_to_list(event_path)
-    no_del_event = event_to_list_nodel(event_path)
-    event_corpus_dict = fs_event_to_list(no_del_event)
+
     # extract_event_format2(event_corpus_dict, corpus_list)
     # to_json2(extract_event_format3(event_corpus_dict, corpus_list), json_path)
-    to_json2(event_corpus_dict, json_path)
+
     # dict_event_corpus = extract_event(event_list, corpus_list)
     # dict_to_excel(dict_event_corpus, excel_path)
     # list_to_excel(event_list)
