@@ -6,7 +6,7 @@ from gensim.models import word2vec
 from gensim.models.word2vec import LineSentence
 import logging
 import json
-
+import xlrd
 # 训练word2vec模型， 构建模型
 def train(path):
     logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s', level=logging.INFO)
@@ -56,19 +56,32 @@ def find_Correspondence(my_model):
         print(item[0], item[1])
 
 str_dict = {}
-# 5. 计算两个词的相关词列表
+# 5. 计算两个词的相关词列表,key为word，value为概率值
 def find_twowords(my_model, word):
     # y = my_model.most_similar(u"交通事故", topn=20)
     sub_str_dict = {}
     if word in my_model:
         y = my_model.most_similar(word, topn=20)
-        print("和%s相关的词有：" % word)
+        # print("和%s相关的词有：" % word)
         for item in y:
-            print(item[0], item[1])
+            # print(item[0], item[1])
             sub_str_dict[item[0]] = item[1]
     str_dict[word] = sub_str_dict
     # print(str_dict)
     return str_dict
+
+# 5.1 计算两个词的相关词列表,只保存词，不保存概率，将词保存到列表中
+def find_twowords_only_word(my_model, word):
+    # y = my_model.most_similar(u"交通事故", topn=20)
+    sub_str_list = []
+    if word in my_model:
+        y = my_model.most_similar(word, topn=20)
+        # print("和%s相关的词有：" % word)
+        for item in y:
+            # print(item[0], item[1])
+            sub_str_list.append(item[0])
+    # print(str_dict)
+    return sub_str_list
 
 # 5.2. 保存为json, 将词典格式保存为json,另一种写法
 def to_json(dict, save_path):
@@ -88,7 +101,8 @@ def save_model(my_model):
 # 8. 加载模型
 def load_model(model_path):
     print("load model")
-    return gensim.models.Word2Vec.load(model_path)
+    return gensim.models.KeyedVectors.load_word2vec_format(model_path, binary=True)
+    # return gensim.models.Word2Vec.load(model_path)
 
 # 9. 读取文件，并且保存为列表
 def read_file(file_path):
@@ -100,20 +114,49 @@ def read_file(file_path):
     print(event)
     return event
 
+# 读数据
+def read_excel(path):
+    # 定义一个列表，存放关键词
+    keyword = []
+    bk = xlrd.open_workbook(path)
+    shxrange = range(bk.nsheets)
+    try:
+        sh = bk.sheet_by_name("工作表1")
+    except:
+        print("代码出错")
+    # 获取行数
+    nrows = sh.nrows
+    for i in range(1, nrows):
+        for s in sh.cell_value(i, 3).split(" "):
+            if s and s not in keyword:
+                keyword.append(s)
+        # print(sh.cell_value(i, 3))
+    # print(keyword)
+    return keyword
+
+
 if __name__ == '__main__':
     # 分词之后的结果
-    input_path = "H:\python-workspace\pyltp\out_3.txt"
+    # input_path = "F:\pycharm\yao\out_3.txt"
     # segment_file(input_path, output_path)
-    key_file = ""
-    model_path = "my_model_1220"
-    json_path = "str_similarity2.json"
+    keyword_file = "F:\pycharm\yao\\files\\南京违法行为关键词抽取_yao改.xlsx"
+    # key_file = ""
+    model_path = "E:\yaolinxia\\files\word2vec.bin"
+    json_path = "E:\yaolinxia\workspace\practice\practice\semi_auto_construct_words\models\output\\traffic_similarity.json"
     my_model = load_model(model_path)
     print("load model successful")
-    str_list = read_file(input_path)
+
+    str_dict = {}
+    # str_list = read_file(input_path)
+    key_list = read_excel(keyword_file)
+    print(key_list)
+
     # 寻找相似词
-    for s in str_list:
-        str_dict = find_twowords(my_model, s)
-    to_json(str_dict, json_path)
+    for s in key_list:
+        str_list = find_twowords_only_word(my_model, s)
+        str_dict[s] = str_list
+    print(str_dict)
+    # to_json(str_dict, json_path)
     # words = get_similar_words_str('交通', my_model)
     # print(words)
     # 构建模型
