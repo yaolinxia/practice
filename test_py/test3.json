@@ -1,0 +1,1 @@
+{"customer":{"mappings":{"_doc":{"properties":{"age":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}}}}
