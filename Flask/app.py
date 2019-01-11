@@ -1,6 +1,12 @@
 from flask import Flask, request, url_for, render_template
-
+import flask_restplus
 app = Flask(__name__)
+api = flask_restplus.Api(app, prefix="/v1", title="Users", description="User CURD api")
+
+@app.route('/users')
+class UserApi(flask_restplus.Resource):
+    def get(self):
+        return {'users': '1'}
 
 @app.route('/')
 @app.route('/index')
@@ -60,12 +66,12 @@ with app.test_request_context('/hello', method='POST'):
     assert request.method == 'POST'
 
 # 请求对象
-@app.route('/login', methods=['POST', 'GET'])
-def login():
-    error = None
-    if request.method == 'POST':
-        print(request.form['username'])
-        print(request.form['password'])
+# @app.route('/login', methods=['POST', 'GET'])
+# def login():
+#     error = None
+#     if request.method == 'POST':
+#         print(request.form['username'])
+#         print(request.form['password'])
 
 
 if __name__ == '__main__':
