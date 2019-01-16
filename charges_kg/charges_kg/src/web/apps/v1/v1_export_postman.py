@@ -3,7 +3,7 @@
 # ** Created by: Yizhen
 # ** Date: 2018/12/29
 # ** Time: 16:41
-from ....web.apps.v1 import blueprint, api
+from web.apps.v1 import blueprint, api
 
 
 from flask import Flask,json

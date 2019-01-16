@@ -6,7 +6,7 @@
 
 from flask import Flask,json
 
-from ..src.web.apps.v1 import blueprint, api
+from src.web.apps.v1 import blueprint, api
 
 # 将接口以postman的格式导出
 
