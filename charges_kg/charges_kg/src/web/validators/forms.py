@@ -6,7 +6,7 @@
 from wtforms import StringField
 from wtforms.validators import DataRequired
 
-from ...web.validators.base import BaseForm as Form
+from web.validators.base import BaseForm as Form
 
 
 class ChargeForm(Form):

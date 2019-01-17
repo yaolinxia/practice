@@ -92,8 +92,7 @@ class Todo(Resource):
         TODOS[todo_id] = task
         return task
 
-
 if __name__ == '__main__':
     app = Flask(__name__)
     app.register_blueprint(api_v1)
-    app.run(port=1024, debug=True, threaded=True)
+    app.run(port=5000, debug=True, threaded=True)

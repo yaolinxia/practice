@@ -23,7 +23,6 @@ class JSONEncoder(_JSONEncoder):
             return o.strftime('%Y-%m-%d')
         raise ServerError()
 
-
 class Flask(_Flask):
     json_encoder = JSONEncoder
 
