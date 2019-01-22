@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22a4ae70-a2d2-433b-a1f7-b7539eecf460" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ES/es_insert_data_modify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/adminPages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/flask_blueprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/flask_restplus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_blueprint/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_py/charge_kg/.idea/charge_kg.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_py/charge_kg/save_load_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,49 +23,75 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/practice$test_ES.coverage" NAME="test_ES Coverage Results" MODIFIED="1546499732291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py" />
+    <SUITE FILE_PATH="coverage/practice$charge_train_change.coverage" NAME="charge_train_change Coverage Results" MODIFIED="1547099776900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition" />
+    <SUITE FILE_PATH="coverage/practice$pytest_in_test_sentence2vec_py.coverage" NAME="pytest in test_sentence2vec.py Coverage Results" MODIFIED="1547102194720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py/charge_kg" />
+    <SUITE FILE_PATH="coverage/qindun$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1545287513786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semi_auto_construct_words/models" />
+    <SUITE FILE_PATH="coverage/practice$Flask__flask_blueprint_app___init___py_.coverage" NAME="Flask (flask_blueprint/app/__init__.py) Coverage Results" MODIFIED="1546932225757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/practice$Flask__Flask_app_create_url_py_.coverage" NAME="Flask (Flask/app_create_url.py) Coverage Results" MODIFIED="1546937547626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/practice$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1545976748716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py" />
+    <SUITE FILE_PATH="coverage/practice$app.coverage" NAME="app Coverage Results" MODIFIED="1547114430309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask" />
+    <SUITE FILE_PATH="coverage/practice$Flask__flask_blueprint_app_py___1_.coverage" NAME="Flask (flask_blueprint/app.py) Coverage Results" MODIFIED="1546931644580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qindun$cnn_model.coverage" NAME="cnn_model Coverage Results" MODIFIED="1544775028488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py/cnn" />
     <SUITE FILE_PATH="coverage/practice$es_insert_data_modify.coverage" NAME="es_insert_data_modify Coverage Results" MODIFIED="1546501549566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ES" />
+    <SUITE FILE_PATH="coverage/practice$Flask__flask_blueprint_app_py_.coverage" NAME="Flask (flask_blueprint/app.py) Coverage Results" MODIFIED="1546928627200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/practice$config.coverage" NAME="config Coverage Results" MODIFIED="1547089500562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/charges_kg/charges_kg/src/config" />
     <SUITE FILE_PATH="coverage/qindun$LTP_CWS.coverage" NAME="LTP_CWS Coverage Results" MODIFIED="1545183462451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyltp" />
     <SUITE FILE_PATH="coverage/qindun$qindun.coverage" NAME="qindun Coverage Results" MODIFIED="1544751459719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/qindun$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1545287513786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semi_auto_construct_words/models" />
+    <SUITE FILE_PATH="coverage/practice$charge_train.coverage" NAME="charge_train Coverage Results" MODIFIED="1547099751875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition" />
     <SUITE FILE_PATH="coverage/qindun$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1545275726311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py" />
     <SUITE FILE_PATH="coverage/practice$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1545966581958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semi_auto_construct_words/preprocessing" />
-    <SUITE FILE_PATH="coverage/practice$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1545976748716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py" />
+    <SUITE FILE_PATH="coverage/practice$test_sentence2vec_py.coverage" NAME="test_sentence2vec.py Coverage Results" MODIFIED="1547102860421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py/charge_kg" />
+    <SUITE FILE_PATH="coverage/practice$Flask__Flask_flask_blueprint_py_.coverage" NAME="Flask (Flask/flask_blueprint.py) Coverage Results" MODIFIED="1547175518473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/practice$excel_to_json.coverage" NAME="excel_to_json Coverage Results" MODIFIED="1545979298919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semi_auto_construct_words/preprocessing" />
     <SUITE FILE_PATH="coverage/qindun$extract_traffic_event.coverage" NAME="extract_traffic_event Coverage Results" MODIFIED="1545289390546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extract_traffic_event" />
     <SUITE FILE_PATH="coverage/practice$es_os.coverage" NAME="es_os Coverage Results" MODIFIED="1546501068749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py" />
     <SUITE FILE_PATH="coverage/practice$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1545976997244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semi_auto_construct_words/models" />
     <SUITE FILE_PATH="coverage/qindun$traffic_corpus.coverage" NAME="traffic_corpus Coverage Results" MODIFIED="1544769760178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word2vec" />
+    <SUITE FILE_PATH="coverage/practice$test_flask.coverage" NAME="test_flask Coverage Results" MODIFIED="1546908863547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_py" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1747491158">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="57" />
-          <entry key="py" value="4627" />
+          <entry key="Python Console" value="182" />
+          <entry key="css" value="40" />
+          <entry key="dummy" value="15" />
+          <entry key="html" value="1" />
+          <entry key="py" value="7412" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4684" />
+          <entry key="CSS" value="40" />
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="Python" value="7594" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="7" />
-          <entry key="py" value="12" />
+          <entry key="css" value="2" />
+          <entry key="html" value="1" />
+          <entry key="json" value="11" />
+          <entry key="md" value="4" />
+          <entry key="py" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="7" />
-          <entry key="Python" value="12" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="11" />
+          <entry key="Markdown" value="4" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
     </session>
@@ -62,116 +99,122 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/models/word2vec.py">
+        <entry file="file://$PROJECT_DIR$/test_py/test_flask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="86" selection-start-line="86" selection-end-line="89" selection-end-column="29" />
+            <state relative-caret-position="108">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding>
-                <element signature="e#45#58#0" expanded="true" />
-                <marker date="1545978721446" expanded="true" signature="4354:4355" ph="..." />
+                <marker date="1546908863493" expanded="true" signature="75:80" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/preprocessing/excel_to_json.py">
+        <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="2533">
+              <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1545979510713" expanded="true" signature="934:1800" ph="..." />
+                <element signature="e#114#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_py/test_ES.py">
+        <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/config/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+            <state relative-caret-position="405">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1546480525046" expanded="true" signature="1283:1343" ph="..." />
-                <marker date="1546480525046" expanded="true" signature="1803:2627" ph="..." />
+                <element signature="e#24#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_py/es_os.py">
+        <entry file="file://$PROJECT_DIR$/test_py/charge_kg/test_sentence2vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="378">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="7" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1546501068698" expanded="true" signature="82:87" ph="..." />
-                <marker date="1546501068698" expanded="true" signature="245:381" ph="..." />
+                <element signature="e#0#38#0" expanded="true" />
+                <marker date="1547108608639" expanded="true" signature="2174:3002" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <marker date="1547114430275" expanded="true" signature="252:303" ph="..." />
+                <marker date="1547114430275" expanded="true" signature="352:564" ph="..." />
+                <marker date="1547114430275" expanded="true" signature="754:759" ph="..." />
+                <marker date="1547114430275" expanded="true" signature="1532:1673" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/flask_restplus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/flask_blueprint.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+              <folding>
+                <element signature="e#41#90#0" expanded="true" />
+                <marker date="1547176692814" expanded="true" signature="358:363" ph="..." />
+                <marker date="1547176692814" expanded="true" signature="358:382" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/adminPages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ES/es_insert_data_modify.py">
+        <entry file="file://$PROJECT_DIR$/Flask/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="270">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
-                <element signature="e#108#119#0" expanded="true" />
+                <element signature="e#41#90#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-101337682/builtins.py">
+        <entry file="file://$PROJECT_DIR$/test_py/charge_kg/save_load_method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="224" column="4" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES/es_insert_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
-              <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="31" />
-              <folding>
-                <element signature="e#108#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_py/test3.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/preprocessing/output/traffic_words.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20242">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_py/test_json.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="36" column="146" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="146" />
-              <folding>
-                <element signature="e#45#56#0" expanded="true" />
-                <marker date="1545976748669" expanded="true" signature="83:84" ph="..." />
-                <marker date="1545976748669" expanded="true" signature="545:940" ph="..." />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -198,20 +241,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LTP_CWS.py" />
-        <option value="$PROJECT_DIR$/semi_auto_construct_words/test_WordSimilarity.py" />
-        <option value="$PROJECT_DIR$/test_py/test_model.py" />
-        <option value="$PROJECT_DIR$/test_py/cnn/main.py" />
-        <option value="$PROJECT_DIR$/test_py/cnn/cnn_model.py" />
-        <option value="$PROJECT_DIR$/semi_auto_construct_words/models/neural.py" />
-        <option value="$PROJECT_DIR$/extract_traffic_event/extract_traffic_event.py" />
-        <option value="$PROJECT_DIR$/semi_auto_construct_words/preprocessing/read_excel.py" />
-        <option value="$PROJECT_DIR$/test_py/test_json.py" />
-        <option value="$PROJECT_DIR$/semi_auto_construct_words/models/word2vec.py" />
         <option value="$PROJECT_DIR$/semi_auto_construct_words/preprocessing/excel_to_json.py" />
         <option value="$PROJECT_DIR$/test_py/test_ES.py" />
         <option value="$PROJECT_DIR$/test_py/es_os.py" />
         <option value="$PROJECT_DIR$/ES/es_insert_data_modify.py" />
+        <option value="$PROJECT_DIR$/test_py/test_flask.py" />
+        <option value="$PROJECT_DIR$/Flask/app/routes.py" />
+        <option value="$PROJECT_DIR$/Flask/config.py" />
+        <option value="$PROJECT_DIR$/Flask/app/main/views.py" />
+        <option value="$PROJECT_DIR$/Flask/app/main/errors.py" />
+        <option value="$PROJECT_DIR$/Flask/models.py" />
+        <option value="$PROJECT_DIR$/Flask/__init__.py" />
+        <option value="$PROJECT_DIR$/Flask/app/main/__init__.py" />
+        <option value="$PROJECT_DIR$/Flask/app/__init__.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app/auth/forms.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app/auth/views.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app/main/errors.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app/main/forms.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app/main/views.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/models.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/emails.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/__init__.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app/main/__init__.py" />
+        <option value="$PROJECT_DIR$/flask_blueprint/app/__init__.py" />
+        <option value="$PROJECT_DIR$/Flask/app_create_url.py" />
+        <option value="$PROJECT_DIR$/Flask/static/style.css" />
+        <option value="$PROJECT_DIR$/Flask/templates/hello.html" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/save_load_method.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_test.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/__init__.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/run.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/scripts/processing.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/__init__.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v1/charge.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v1/v1_export_postman.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v2/__init__.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/libs/error_code.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/validators/base.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/validators/forms.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/tests/postman.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/web/run_test.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/config/config.py" />
+        <option value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train_change.py" />
+        <option value="$PROJECT_DIR$/test_py/test_sentence2vec.py" />
+        <option value="$PROJECT_DIR$/test_py/charge_kg/test_sentence2vec.py" />
+        <option value="$PROJECT_DIR$/Flask/app.py" />
+        <option value="$PROJECT_DIR$/Flask/flask_restplus.py" />
+        <option value="$PROJECT_DIR$/Flask/flask_blueprint.py" />
+        <option value="$PROJECT_DIR$/Flask/adminPages.py" />
+        <option value="$PROJECT_DIR$/Flask/run.py" />
       </list>
     </option>
   </component>
@@ -221,9 +301,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="867" />
+    <option name="width" value="1049" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -231,6 +311,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,13 +322,28 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ES" type="462c0819:PsiDirectoryNode" />
+              <item name="charges_kg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ES" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_blueprint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_blueprint" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="test_py" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -258,22 +354,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_py/charge_kg" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\yaolinxia\workspace\practice\practice\ES\data" />
-      <recent name="E:\yaolinxia\workspace\practice\practice\ES" />
-      <recent name="E:\yaolinxia\workspace\practice\practice\test_py" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yaolinxia\workspace\practice\practice\flask_blueprint\app" />
+      <recent name="E:\yaolinxia\workspace\practice\practice\Flask\app" />
+      <recent name="E:\yaolinxia\workspace\practice\practice\Flask\app\app" />
       <recent name="H:\python-workspace\qindun\pyltp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\yaolinxia\workspace\practice\practice\test_py\charge_kg" />
+      <recent name="E:\yaolinxia\workspace\practice\practice\charges_kg\charges_kg\src\ml\charge_recognition" />
+      <recent name="E:\yaolinxia\workspace\practice\practice\Flask" />
+      <recent name="E:\yaolinxia\workspace\practice\practice\flask_blueprint\app\auth" />
+      <recent name="E:\yaolinxia\workspace\practice\practice\flask_blueprint\app\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,21 +388,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.es_insert_data_modify">
-    <configuration name="es_insert_data_modify" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qindun" />
+  <component name="RunManager" selected="Flask server.Flask (Flask/flask_blueprint.py)">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ES" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\dtyhe\AppData\Local\Programs\Python\Python35\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ES/es_insert_data_modify.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,20 +411,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="es_os" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qindun" />
+    <configuration name="charge_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_py/es_os.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,20 +433,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="excel_to_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qindun" />
+    <configuration name="charge_train_change" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/semi_auto_construct_words/preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/semi_auto_construct_words/preprocessing/excel_to_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train_change.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/charges_kg/charges_kg/src/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charges_kg/charges_kg/src/config/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,20 +499,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_ES" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qindun" />
+    <configuration name="test_sentence2vec.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_py" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\dtyhe\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_py/charge_kg" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_py/test_ES.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_py/charge_kg/test_sentence2vec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -399,26 +521,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qindun" />
+    <configuration name="Flask (Flask/flask_blueprint.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="target" value="$PROJECT_DIR$/Flask/flask_blueprint.py" />
+      <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/semi_auto_construct_words/models" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/semi_auto_construct_words/models/word2vec.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="practice" />
+      <option name="target" value="$PROJECT_DIR$/Flask/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -446,20 +576,22 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Flask server.practice" />
+      <item itemvalue="Python.test_sentence2vec.py" />
       <item itemvalue="Python.qindun" />
-      <item itemvalue="Python.word2vec" />
-      <item itemvalue="Python.excel_to_json" />
-      <item itemvalue="Python.test_ES" />
-      <item itemvalue="Python.es_os" />
-      <item itemvalue="Python.es_insert_data_modify" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.charge_train" />
+      <item itemvalue="Python.charge_train_change" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Flask server.Flask (Flask/flask_blueprint.py)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.es_insert_data_modify" />
-        <item itemvalue="Python.es_os" />
-        <item itemvalue="Python.test_ES" />
-        <item itemvalue="Python.excel_to_json" />
-        <item itemvalue="Python.word2vec" />
+        <item itemvalue="Flask server.Flask (Flask/flask_blueprint.py)" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.charge_train_change" />
+        <item itemvalue="Python.charge_train" />
+        <item itemvalue="Python.config" />
       </list>
     </recent_temporary>
   </component>
@@ -474,34 +606,56 @@
       <option name="presentableId" value="Default" />
       <updated>1544608347403</updated>
     </task>
+    <task id="LOCAL-00001" summary="flask学习">
+      <created>1546940521460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546940521460</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_sentence2vec_py - 2019.01.10 at 14h 10m 33s.xml">
+      <configuration name="pytest in test_sentence2vec.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sentence2vec_py - 2019.01.10 at 14h 11m 05s.xml">
+      <configuration name="pytest in test_sentence2vec.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sentence2vec_py - 2019.01.10 at 14h 36m 24s.xml">
+      <configuration name="pytest in test_sentence2vec.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sentence2vec_py - 2019.01.10 at 14h 36m 36s.xml">
+      <configuration name="pytest in test_sentence2vec.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="867" y="0" width="1049" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.08422175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19312437" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24342105" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17589577" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36373508" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34320176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40679824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32785088" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08422175" />
@@ -534,244 +688,406 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="flask学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask学习" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/word2vec/input_data/traffic_accident.txt">
+    <entry file="file://$PROJECT_DIR$/flask_blueprint/app/main/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blueprint/app/main/errors.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_blueprint/app/main/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="405">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_py/test_model.py" />
-    <entry file="file://$PROJECT_DIR$/test_py/cnn/main.py">
+    <entry file="file://$PROJECT_DIR$/Flask/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word2vec/test_word2vec.py">
+    <entry file="file://$PROJECT_DIR$/flask_blueprint/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        <state relative-caret-position="405">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#193#216#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/test_WordSimilarity.py">
+    <entry file="file://$PROJECT_DIR$/Flask/app_create_url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <marker date="1546937457378" expanded="true" signature="84:94" ph="..." />
+            <marker date="1546937457378" expanded="true" signature="128:139" ph="..." />
+            <marker date="1546937457378" expanded="true" signature="263:424" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/tests/restplus_postman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#114#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/config/db_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/ml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#113#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/ml/save_load_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/scripts/processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#113#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v1/charge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#107#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v1/v1_export_postman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v2/wyz.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/v2/yyx.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/apps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#113#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/libs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/libs/error.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/libs/error_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/tests/postman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#114#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/tests/mini_restplus_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#115#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#108#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/code.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="e#113#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/validators/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#112#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/validators/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/validators/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/web/libs/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/models/neural.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/gensim/models/keyedvectors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-1026">
+          <caret line="112" column="18" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/YanJiuSheng-download/2a/anaconda/envs/tensorflow/Lib/site-packages/gensim/models/keyedvectors.py" />
-    <entry file="file://E:/YanJiuSheng-download/2a/anaconda/envs/tensorflow/Lib/json/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/extract_traffic_event/event_count_1210_add.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_traffic_event/traffic_event.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_traffic_event/traffic_event_add.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_traffic_event/traffic_event_final.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_traffic_event/traffic_event.txt">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1261">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="1516">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/YanJiuSheng-download/2a/anaconda/envs/tensorflow/Lib/site-packages/gensim/matutils.py" />
-    <entry file="file://E:/YanJiuSheng-download/2a/anaconda/envs/tensorflow/Lib/site-packages/gensim/utils.py" />
-    <entry file="file://$PROJECT_DIR$/word2vec/traffic_corpus.py">
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/config/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="405">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#45#57#0" expanded="true" />
+            <element signature="e#24#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_py/cnn/cnn_model.py">
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+          <folding>
+            <element signature="e#114#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_py/test_sentence2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charges_kg/charges_kg/src/ml/charge_recognition/charge_train_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_py/charge_kg/save_load_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_py/charge_kg/test_sentence2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1547108608639" expanded="true" signature="2174:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_py/test_flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <marker date="1546908863493" expanded="true" signature="75:80" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/flask_restplus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/flask_blueprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#41#90#0" expanded="true" />
+            <marker date="1547176692814" expanded="true" signature="358:363" ph="..." />
+            <marker date="1547176692814" expanded="true" signature="358:382" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/adminPages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/models/str_similarity2.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyltp/LTP_CWS.py">
+    <entry file="file://$PROJECT_DIR$/Flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_traffic_event/extract_traffic_event.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1293">
-          <caret line="304" column="52" selection-start-line="304" selection-start-column="52" selection-end-line="304" selection-end-column="52" />
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#149#160#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1547114430275" expanded="true" signature="252:303" ph="..." />
+            <marker date="1547114430275" expanded="true" signature="352:564" ph="..." />
+            <marker date="1547114430275" expanded="true" signature="754:759" ph="..." />
+            <marker date="1547114430275" expanded="true" signature="1532:1673" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_py/test_dict.py">
+    <entry file="file://$PROJECT_DIR$/Flask/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="40" selection-start-line="40" selection-end-line="43" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/models/output/traffic_similarity_probability.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3017">
-          <caret line="7689" column="30" selection-start-line="7689" selection-start-column="30" selection-end-line="7689" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/preprocessing/read_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="270">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="e#19#30#0" expanded="true" />
-            <marker date="1545966581927" expanded="true" signature="560:1251" ph="..." />
-            <marker date="1545966581927" expanded="true" signature="585:1251" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_py/test_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="36" column="146" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="146" />
-          <folding>
-            <element signature="e#45#56#0" expanded="true" />
-            <marker date="1545976748669" expanded="true" signature="83:84" ph="..." />
-            <marker date="1545976748669" expanded="true" signature="545:940" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/models/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="86" selection-start-line="86" selection-end-line="89" selection-end-column="29" />
-          <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <marker date="1545978721446" expanded="true" signature="4354:4355" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/preprocessing/traffic_words.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182173">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/preprocessing/output/traffic_words.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20242">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/preprocessing/output/traffic_words2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_py/test3.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES/data/traffic_words_new.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES/es_insert_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="31" />
-          <folding>
-            <element signature="e#108#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-101337682/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="224" column="4" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_auto_construct_words/preprocessing/excel_to_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1545979510713" expanded="true" signature="934:1800" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_py/test_ES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1546480525046" expanded="true" signature="1283:1343" ph="..." />
-            <marker date="1546480525046" expanded="true" signature="1803:2627" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_py/es_os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1546501068698" expanded="true" signature="82:87" ph="..." />
-            <marker date="1546501068698" expanded="true" signature="245:381" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES/es_insert_data_modify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#108#119#0" expanded="true" />
+            <element signature="e#41#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
