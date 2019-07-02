@@ -22,7 +22,7 @@ num = [a for a in data]
 # 字典数据取出后，先排序
 # print(num)
 num.sort()
-# print(num)
+print(num)
 
 for x in num:
     # 讲字符串转为整数
@@ -31,13 +31,13 @@ for x in num:
         t.append(a)
     list_data.append(t)
 # print(t)
-# print(list_data)
+print(list_data)
 
 for i, p in enumerate(list_data):
     # 讲数据写入进文件中
     # print(i, p)
     for j, q in enumerate(p):
-        print(i, j, p)
+        # print(i, j, p)
         table.write(i, j, q)
 
 file.save('data.xlsx')
