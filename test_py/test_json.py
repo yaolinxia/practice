@@ -34,6 +34,9 @@ def read_file(path):
     return dict_text
 
 if __name__ == '__main__':
-    json_path = "E:\yaolinxia\workspace\practice\practice\semi_auto_construct_words\models\output\\traffic_similarity_threshold_0.65_process.json"
-    json_dict = read_file(json_path)
-    print(json_dict)
+    # json_path = "E:\yaolinxia\workspace\practice\practice\semi_auto_construct_words\models\output\\traffic_similarity_threshold_0.65_process.json"
+    # json_dict = read_file(json_path)
+    # print(json_dict)
+    d = {'a': 1, 'b': 4, 'c': 2, 'f': 12}
+    d = sorted(d.items(), key=lambda x:x[1])
+    print(d)
